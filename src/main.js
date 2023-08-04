@@ -84,7 +84,7 @@ const CreateMesh = (name,radius,color)=>{
     new THREE.SphereGeometry(radius, 32, 32),
     new THREE.MeshStandardMaterial({
         emissive: color,
-        emissiveMap: textureLoader.load(`/src/assets/${name}.jpg`),
+        emissiveMap: textureLoader.load(`/static/${name}.jpg`),
         emissiveIntensity : 0.7
     })
   )
